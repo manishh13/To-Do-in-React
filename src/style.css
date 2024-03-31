@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+}
+.input-div {
+  padding: 15px;
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* border: 1px solid black; */
+  box-shadow: 0 0 5px 5px rgb(195, 182, 182);
+  margin-left: 32%;
+}
+.input-div > input {
+  padding: 13px 40px;
+  font-size: 20px;
+  border: 2px solid rgb(24, 215, 240);
+  border-radius: 50px;
+
+  color: rgb(24, 215, 240);
+  caret-color: rgb(24, 215, 240);
+}
+.input-div > input::placeholder {
+  color: rgb(24, 215, 240);
+}
+
+.input-div > button {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background-color: rgb(24, 215, 240);
+  color: white;
+  font-size: 25px;
+  overflow: hidden;
+}
+.input-div > button :active {
+  color: rgb(3, 81, 96);
+}
+
+ul {
+  margin-left: 32%;
+}
+ul > li {
+  list-style-type: none;
+  margin-top: 10px;
+}
